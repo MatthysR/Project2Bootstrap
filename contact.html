@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact | Mijn portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <nav class="navbar container">
+                <a href="index.html" class="logo">Ruben <span>Matthys</span></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="ervaring.html">Ervaring</a></li>
+                    <li><a href="interesses.html">Interesses</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container page-content">
+            <section class="page-intro">
+                <p class="eyebrow">Neem contact op</p>
+                <h1>Contact</h1>
+                <p class="muted">
+                    Heb je een vraag of wil je meer informatie? Via onderstaande gegevens kun je mij bereiken.
+                </p>
+            </section>
+
+            <section class="contact-layout">
+                <div class="card">
+                    <h2>Contactgegevens</h2>
+
+                    <ul class="contact-list">
+                        <li>
+                            <strong>E-mail</strong>
+                            <a href="mailto:jouw.email@example.com"> ruben.matthys6@gmail.com </a>
+                        </li>
+
+                        <li>
+                            <strong>Telefoon</strong>
+                            <a href="tel:+32000000000"> 0484268691 </a>
+                        </li>
+
+                        <li>
+                            <strong>Locatie</strong>
+                            2440 Geel
+                        </li>
+
+                        <li>
+                            <strong>LinkedIn</strong>
+                            <a
+                                href="www.linkedin.com/in/ruben-matthys-113218339"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Mijn LinkedIn-profiel
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h2>Stuur een bericht</h2>
+
+                    <form
+                        class="contact-form"
+                        action="mailto:jouw.email@example.com"
+                        method="post"
+                        enctype="text/plain">
+                        <label for="naam">Naam</label>
+                        <input type="text" id="naam" name="naam" placeholder="Naam" required />
+
+                        <label for="onderwerp">Onderwerp</label>
+                        <input type="text" id="onderwerp" name="onderwerp" placeholder="Onderwerp" required />
+
+                        <label for="bericht">Bericht</label>
+                        <textarea id="bericht" name="bericht" placeholder="Typ hier je bericht..." required></textarea>
+
+                        <button class="button" type="submit">Verstuur bericht</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; 2026 Ruben Matthys — Mijn portfolio</p>
+        </footer>
+    </body>
+</html>
